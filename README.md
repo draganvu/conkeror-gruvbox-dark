@@ -10,14 +10,15 @@ is not supported. I have just themed the minibuffer and modeline.
 
 ## Gruvbox
 This [theme](https://github.com/morhetz/gruvbox) was orginally 
-created for Vim by Pavel Pertsev.
+created for Vim by [Pavel Pertsev](https://github.com/morhetz).
 
 ## Acknowledgments
 There used to be a blackened theme available with Conkeror. 
 This is no longer the case but it can still be found 
-[here]().
+[here](http://repo.or.cz/conkeror.git/tree/a38b3a3630ebf85a403207b37220cee9790d3a82:/style/blackened).
 
-Zenburn Conkeror theme by Ivaylo Kuzev.
+[Zenburn](https://github.com/ivoarch/conkeror-theme-zenburn) 
+Conkeror theme by [Ivaylo Kuzev](https://github.com/ivoarch).
 
 ## License
 GPL v3+
