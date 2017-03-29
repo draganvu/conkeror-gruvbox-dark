@@ -17,9 +17,7 @@ Download the theme:
 
 ```
 mkdir -p ~/.conkerorrc/themes
-cd ~/.conkerorrc/themes
-git clone https://github.com/draganvu/conkeror-gruvbox-dark.git 
-~/.conkerorrc/themes/gruvbox-dark-soft
+git clone https://github.com/draganvu/conkeror-gruvbox-dark.git ~/.conkerorrc/themes/gruvbox-dark-soft
 ```
 
 Add this somewhere in your conkeror config:
