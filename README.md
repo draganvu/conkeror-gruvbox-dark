@@ -12,7 +12,29 @@ is not supported. I have just themed the minibuffer and modeline.
 This [theme](https://github.com/morhetz/gruvbox) was orginally 
 created for Vim by [Pavel Pertsev](https://github.com/morhetz).
 
+## Usage
+Download the theme:
+
+```
+mkdir -p ~/.conkerorrc/themes
+cd ~/.conkerorrc/themes
+git clone https://github.com/draganvu/conkeror-gruvbox-dark.git 
+~/.conkerorrc/themes/gruvbox-dark-soft
+```
+
+Add this somewhere in your conkeror config:
+
+```javascript
+theme_load_paths.unshift("~/.conkerorrc/themes/");
+theme_unload("default");
+theme_load("gruvbox-dark-soft");
+```
+
 ## Acknowledgments
+I used the default conkeror theme as a template. This theme
+can be found in the conkeror source at: 
+`/conkeror/style/default/`.
+
 There used to be a blackened theme available with Conkeror. 
 This is no longer the case but it can still be found 
 [here](http://repo.or.cz/conkeror.git/tree/a38b3a3630ebf85a403207b37220cee9790d3a82:/style/blackened).
