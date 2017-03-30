@@ -29,9 +29,9 @@ theme_load("gruvbox-dark-soft");
 ```
 
 ## Acknowledgments
-I used the default conkeror theme as a template. This theme
-can be found in the conkeror source at: 
-`/conkeror/style/default/`.
+I used the default conkeror theme as a template.  
+This theme can be found in the conkeror source at: 
+`conkeror/style/default/`.
 
 There used to be a blackened theme available with Conkeror. 
 This is no longer the case but it can still be found 
